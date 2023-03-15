@@ -42,4 +42,5 @@ rants
 |   comment   |         String        |
 |   reviewer  |         String        |
 
-
+User Story: 
+As a restaurant owner, I want to showcase my business to attract new customers.
