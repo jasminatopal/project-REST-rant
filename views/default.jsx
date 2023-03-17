@@ -5,7 +5,8 @@ function Def (html) {
         <html>
             <head>
                 <title>Title</title>
-                <link rel="stylesheet" href="" />
+                <link rel="stylesheet" href="https://www.bootstrapcdn.com/" />
+                <link rel="stylesheet" href="/css/style.css"/>
             </head>
             <body>
                 {html.children}
