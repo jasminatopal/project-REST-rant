@@ -7,6 +7,11 @@ function error404 () {
           <main>
               <h1>404: PAGE NOT FOUND</h1>
               <p>Oops, sorry, we can't find this page!</p>
+
+              <div>
+          <img src="/images/palm-tree.avif" alt="palm tree" />
+        </div>
+
           </main>
       </Def>
     )
