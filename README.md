@@ -44,3 +44,5 @@ rants
 
 User Story: 
 As a restaurant owner, I want to showcase my business to attract new customers.
+
+As a consumer, I want to connect with the must-eat restaurants and local gems. 
