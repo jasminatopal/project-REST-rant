@@ -11,11 +11,17 @@ app.use(express.static('public'))
 
 // Controllers & Routes
 app.use('/places', require('./controllers/places'))
+
+// body parser - tool to decrypt user input data 
 app.use(express.urlencoded({ extended: true }))
 
 
 app.get('/', (req, res) => {
     res.render('home')
+})
+
+app.get('/new', (req, res) => {
+    res.render('new')
 })
 
 app.get('*', (req, res) => {
