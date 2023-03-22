@@ -9,7 +9,7 @@ function error404 () {
               <p>Oops, sorry, we can't find this page!</p>
 
               <div>
-          <img src="/images/palm-tree.avif" alt="palm tree" />
+          <img src="/images/palm-tree.avif" alt="palm tree" width="500" height="700"/>
         </div>
 
           </main>
