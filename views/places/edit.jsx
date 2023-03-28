@@ -7,7 +7,7 @@ function Edit(data) {
             <main>
                 <h1>Edit Place</h1>
                 <br />
-                <form method='POST' action={`/places/${data.id}?_method=PUT`}>
+                <form method='POST' action={`/places/${data.place.id}?_method=PUT`}>
                     <div className='row'>
                         <div className="form-group col-sm-6">
                             <label htmlFor="name">Name</label>
@@ -26,7 +26,7 @@ function Edit(data) {
                                 className="form-control"
                                 id="pic"
                                 name="pic"
-                                type="text"
+                                type="url"
                                 value={data.place.pic} />
                         </div>
 
